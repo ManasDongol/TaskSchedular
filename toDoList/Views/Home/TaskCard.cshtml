@@ -1,0 +1,29 @@
+@model List<toDoList.Models.toDoTasks>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Task 1:</title>
+</head>
+<body>
+
+
+<ul>
+    @foreach (var task in Model)
+    {
+        <li class="tasklist">
+            <div class="card">
+                <div>dsfsdf</div>
+                <p class="taskInfo">@task.TaskStatus - @task.TaskDescription</p>
+            </div>
+        </li>
+    }
+
+</ul>
+</body>
+</html>

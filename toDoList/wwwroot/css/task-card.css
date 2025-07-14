@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    align-items: center;       /* Vertical centering */
+    gap: 10px;                 /* Space between button and text */
+    background-color: #0a58ca;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 40vw;
+    padding: 10px;             /* Optional: spacing inside card */
+    color: white;              /* To make text readable on blue background */
+}
+
+.taskInfo {
+    margin: 0;                 /* Remove default margin from <p> */
+}
+
+
+.tasklist{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+}
+
+.completionButton {
+    background-color: #0a58ca;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    border: none;
+    cursor: pointer; /* Optional: shows hand icon on hover */
+}

@@ -1,0 +1,12 @@
+﻿<link rel="stylesheet" href="~/css/task-card.css" />
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Your Tasks</h1>
+    @await Html.PartialAsync("TaskCard")
+    <h1 class="display-4">Llol</h1>
+
+</div>
